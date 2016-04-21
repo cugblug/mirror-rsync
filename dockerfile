@@ -1,3 +1,3 @@
 FROM alpine:3.3
-MAINTAINER Xuanwo
+MAINTAINER Xuanwo xuanwo.cn@gmail.com
 RUN apk add --update rsync && rm -rf /var/cache/apk/*
